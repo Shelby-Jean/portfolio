@@ -10,7 +10,7 @@ class Home extends React.Component {
         <video autoPlay loop muted className="home-video">
           <source src={CodingSequence} type="video/mp4" />
         </video>
-        <div className="content-container">
+        <div className="home-content-container">
           <div className="name-title-container">
             <h1 id="home-name">Shelby Gottschall</h1>
             <h2 id="title-name">front end developer</h2>
