@@ -6,15 +6,19 @@ import '../css/Home.css';
 class Home extends React.Component {
   render() {
     return (
-      <div className="home-container">
+      <div>
         <video autoPlay loop muted className="home-video">
           <source src={CodingSequence} type="video/mp4" />
         </video>
         <div className="content-container">
-          <h1 id="home-name">Shelby Gottschall</h1>
-          <h2>front end developer</h2>
-          <h3 className="nav-container"> <Link to="/about" className="nav-link">About</Link> </h3>
-          <h3 className="nav-container"> <Link to="/work" className="nav-link">Work</Link> </h3>
+          <div className="name-title-container">
+            <h1 id="home-name">Shelby Gottschall</h1>
+            <h2 id="title-name">front end developer</h2>
+          </div>
+          <div className="home-nav-container">
+            <Link to="/about" className="nav-link"> <h3>About</h3> </Link> 
+            <Link to="/work" className="nav-link"> <h3>Work</h3> </Link>
+          </div>
         </div>
       </div>
     )

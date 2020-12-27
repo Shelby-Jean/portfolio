@@ -12,7 +12,8 @@ body {
   color: white;
 }
 
-.nav-container {
+.nav-link {
+  color: white;
   display: inline;
   text-transform: uppercase;
   padding: 10px;
@@ -21,11 +22,7 @@ body {
   border-radius: 10%;
   border-color: white;
   margin: 10px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: white;
+  font-size: 1vw;
 }
 
 .footer-container {
