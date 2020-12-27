@@ -12,6 +12,12 @@ body {
   color: white;
 }
 
+.nav-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
 .nav-link {
   color: white;
   display: inline;
@@ -21,7 +27,7 @@ body {
   border-width: 2px;
   border-radius: 10%;
   border-color: white;
-  margin: 10px;
+  margin: 10px 20px;
   font-size: 1vw;
 }
 
@@ -34,6 +40,6 @@ body {
 }
 
 .footer-icon {
-  height: 25px;
+  /* height: 25px; */
   margin: 5px;
 }
