@@ -1,0 +1,16 @@
+.home-video {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#home-name {
+  font-family: 'Bungee', cursive;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  font-family: "Roboto", san-serf;
+  font-weight: 400;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.nav-container {
+  display: inline;
+  text-transform: uppercase;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10%;
+  border-color: white;
+  margin: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
