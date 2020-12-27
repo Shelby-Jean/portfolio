@@ -6,7 +6,7 @@ import '../css/Home.css';
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="home-container">
         <video autoPlay loop muted className="home-video">
           <source src={CodingSequence} type="video/mp4" />
         </video>
