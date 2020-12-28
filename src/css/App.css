@@ -5,6 +5,7 @@
   border: none;
   font-family: "Roboto", san-serf;
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 body {

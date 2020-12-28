@@ -4,9 +4,8 @@ import Navigation from './Navigation';
 class Work extends React.Component {
   render() {
     return (
-      <div>
+      <div id="bg-img">
         <Navigation />
-        <h1>WORK</h1>
       </div>
     )
   }
