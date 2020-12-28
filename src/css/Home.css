@@ -1,4 +1,4 @@
-.home-video {
+.bg-video {
   position: fixed;
   bottom: 0;
   min-width: 100%;
@@ -23,14 +23,48 @@
 
 #home-name {
   font-family: 'Bungee', cursive;
-  font-size: 5vw;
-}
-
-#title-name {
-  font-size: 2.5vw;
 }
 
 .home-nav-container {
   display: flex;
   flex-direction: column;
+}
+
+.home-nav-link {
+  color: white;
+  display: inline;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10%;
+  border-color: white;
+  margin: 10px 20px;
+}
+
+
+/* mobile & tablet */
+@media (min-width: 320px){
+  #home-name {
+    font-size: 45px;
+  }
+  #title-name {
+    font-size: 25px;
+  }
+  .home-nav-link {
+    padding: 10px 80px;
+    font-size: 14px;
+  }
+}
+
+/* laptop & desktop */
+@media (min-width: 769px) {
+  #home-name {
+    font-size: 60px;
+  }
+  #title-name {
+    font-size: 30px;
+  }
+  .home-nav-link {
+    padding: 10px;
+  }
 }
