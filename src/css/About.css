@@ -11,14 +11,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 80vh;
 }
 
 .about-container {
   background-color: white;
   width: 300px;
-  height: 400px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  height: 350px;
   border-style: solid;
   border-width: 1px;
   border-radius: 5%;
@@ -27,12 +27,13 @@
 
 .photo-contact-container {
   display: flex;
+  margin-top: 10px;
 }
 
 .photo-container {
   background-color: green;
-  width: 100px;
-  height: 100px;
+  width: 115px;
+  height: 115px;
   margin-right: 10px;
   border-style: solid;
   border-width: 1px;
@@ -42,8 +43,8 @@
 
 .contact-container {
   background-color: blue;
-  width: 190px;
-  height: 100px;
+  width: 175px;
+  height: 115px;
   color: black;
   border-style: solid;
   border-width: 1px;
@@ -53,12 +54,14 @@
 
 
 
-/* tablet, laptop, desktop */
-@media (min-width: 481px) {
+/* laptop, desktop */
+@media (min-width: 769px) {
   .about-content-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 75vh;
   }
   
   .photo-contact-container {
@@ -68,19 +71,20 @@
   }
   
   .photo-container {
-    width: 125px;
-    height: 125px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 10px;
   }
   
   .contact-container {
-    width: 125px;
-    height: 125px;
+    width: 200px;
+    height: 200px;
   }
   
   .about-container {
-    width: 125px;
-    height: 125px;
+    width: 200;
+    height: 410px;
     order: 2;
+    margin: 0;
   }
 }
