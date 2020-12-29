@@ -12,7 +12,7 @@ class Home extends React.Component {
         </video>
         <div className="home-content-container">
           <div className="name-title-container">
-            <h1 id="home-name">Shelby Gottschall</h1>
+            <h1 id="home-header">Shelby Gottschall</h1>
             <h2 id="title-name">front end developer</h2>
           </div>
           <div className="home-nav-container">

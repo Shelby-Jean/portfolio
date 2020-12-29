@@ -13,23 +13,29 @@ body {
   color: white;
 }
 
+.header-name {
+  font-family: 'Bungee', cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+}
+
 .nav-container {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
 }
 
 .nav-link {
   color: white;
   display: inline;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 10px 25px;
   border-style: solid;
   border-width: 2px;
   border-radius: 10%;
   border-color: white;
-  margin: 10px 20px;
-  /* font-size: ; */
+  margin: 15px;
+  font-size: 14px;
 }
 
 .footer-container {
@@ -44,3 +50,10 @@ body {
   height: 25px;
   margin: 5px;
 }
+
+
+
+/* laptop & desktop */
+/* @media (min-width: 769px) {
+  
+} */
