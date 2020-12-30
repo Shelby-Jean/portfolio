@@ -45,20 +45,21 @@
   border-color: white;
   margin: 10px 20px;
   padding: 10px 80px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
 
 /* laptop & desktop */
 @media (min-width: 769px) {
-  #header-name {
-    font-size: 60px;
+  #home-header {
+    font-size: 55px;
   }
   #title-name {
     font-size: 30px;
   }
   .home-nav-link {
     padding: 10px;
+    font-size: 18px;
   }
 }
