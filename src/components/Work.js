@@ -1,16 +1,13 @@
-import React from 'react';
-import Navigation from './Navigation';
 import Header from './Header';
+import Navigation from './Navigation';
 
-class Work extends React.Component {
-  render() {
-    return (
-      <div id="bg-img">
-        <Header />
-        <Navigation />
-      </div>
-    )
-  }
+const Work = () => {
+  return (
+    <div id="bg-img">
+      <Header />
+      <Navigation />
+    </div>
+  )
 }
 
 export default Work;
